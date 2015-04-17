@@ -1,0 +1,977 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/chenay\/programs\/ser2net-2.10.0\/missing aclocal-1.13$/;"	m
+ACLOCAL_AMFLAGS	Makefile	/^ACLOCAL_AMFLAGS = -I m4$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CFLAGS	Makefile	/^AM_CFLAGS = -Wall$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 1$/;"	m
+AM_RECURSIVE_TARGETS	Makefile	/^AM_RECURSIVE_TARGETS = cscope$/;"	m
+AM_V_CC	Makefile	/^AM_V_CC = $(am__v_CC_$(V))$/;"	m
+AM_V_CCLD	Makefile	/^AM_V_CCLD = $(am__v_CCLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/chenay\/programs\/ser2net-2.10.0\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/chenay\/programs\/ser2net-2.10.0\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/chenay\/programs\/ser2net-2.10.0\/missing automake-1.13$/;"	m
+AWK	Makefile	/^AWK = mawk$/;"	m
+BANNER	utils.h	/^enum str_type { BANNER, OPENSTR, CLOSESTR, SIGNATURE };$/;"	e	enum:str_type
+BAUD_RATES_LEN	devcfg.c	91;"	d	file:
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CCLD	Makefile	/^CCLD = $(CC)$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2$/;"	m
+CLOSESTR	utils.h	/^enum str_type { BANNER, OPENSTR, CLOSESTR, SIGNATURE };$/;"	e	enum:str_type
+COMPILE	Makefile	/^COMPILE = $(CC) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(AM_CPPFLAGS) \\$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES = ser2net.spec$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONTROLLER	controller.h	21;"	d
+CONTROLLER_CANT_OPEN_PORT	controller.h	26;"	d
+CONTROLLER_INVALID_TCP_SPEC	controller.h	25;"	d
+CONTROLLER_OUT_OF_MEMORY	controller.h	27;"	d
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CSCOPE	Makefile	/^CSCOPE = cscope$/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+CreateProcess	libtool	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+CreateProcess	ltmain.sh	/^   CreateProcess().  We must quote the arguments since Win32 CreateProcess()$/;"	f
+DATAXFER	dataxfer.h	21;"	d
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I.$/;"	m
+DEFS	Makefile	/^DEFS = -DPACKAGE_NAME=\\"ser2net\\" -DPACKAGE_TARNAME=\\"ser2net\\" -DPACKAGE_VERSION=\\"2.10.0\\" -DPACKAGE_STRING=\\"ser2net\\ 2.10.0\\" -DPACKAGE_BUGREPORT=\\"minyard@acm.org\\" -DPACKAGE_URL=\\"\\" -DPACKAGE=\\"ser2net\\" -DVERSION=\\"2.10.0\\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DLT_OBJDIR=\\".libs\/\\" -DUSE_UUCP_LOCKING=1 -DSTDC_HEADERS=1 -DHAVE_LIBNSL=1$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_ARCHIVES	Makefile	/^DIST_ARCHIVES = $(distdir).tar.gz$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(ser2net_SOURCES)$/;"	m
+DIST_TARGETS	Makefile	/^DIST_TARGETS = dist-gzip$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXTRA_DIST	Makefile	/^EXTRA_DIST = $(man_MANS) ser2net.conf ser2net.spec ser2net.init$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+GZIP_ENV	Makefile	/^GZIP_ENV = --best$/;"	m
+HEADERS	Makefile	/^HEADERS = $(noinst_HEADERS)$/;"	m
+INBUF_SIZE	controller.c	56;"	d	file:
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = -lnsl $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LINK	Makefile	/^LINK = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCOMPILE	Makefile	/^LTCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CC $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/chenay\/programs\/ser2net-2.10.0\/missing makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MANS	Makefile	/^MANS = $(man_MANS)$/;"	m
+MASSIVE_DEBUG	selector.c	242;"	d	file:
+MAX_LINE_SIZE	readconfig.c	35;"	d	file:
+MAX_TELNET_CMD_SIZE	telnet.h	43;"	d
+MAX_TELNET_CMD_XMIT_BUF	telnet.h	45;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NET	dataxfer.c	47;"	d	file:
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+NROFF	Makefile	/^NROFF = nroff$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OPENSTR	utils.h	/^enum str_type { BANNER, OPENSTR, CLOSESTR, SIGNATURE };$/;"	e	enum:str_type
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+PACKAGE	Makefile	/^PACKAGE = ser2net$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = minyard@acm.org$/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = ser2net$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = ser2net 2.10.0$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = ser2net$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 2.10.0$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PORT_BUFSIZE	dataxfer.c	74;"	d	file:
+PORT_CLOSING	dataxfer.c	62;"	d	file:
+PORT_DISABLED	dataxfer.c	67;"	d	file:
+PORT_RAW	dataxfer.c	68;"	d	file:
+PORT_RAWLP	dataxfer.c	69;"	d	file:
+PORT_TELNET	dataxfer.c	71;"	d	file:
+PORT_UNCONNECTED	dataxfer.c	56;"	d	file:
+PORT_WAITING_INPUT	dataxfer.c	58;"	d	file:
+PORT_WAITING_OUTPUT_CLEAR	dataxfer.c	60;"	d	file:
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+PROGRAMS	Makefile	/^PROGRAMS = $(sbin_PROGRAMS)$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+READCONFIG	readconfig.h	21;"	d
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SELECTOR	selector.h	21;"	d
+SEL_FD_HANDLER_DISABLED	selector.h	55;"	d
+SEL_FD_HANDLER_ENABLED	selector.h	54;"	d
+SER2NET_H	ser2net.h	21;"	d
+SER2NET_IO_H	devio.h	21;"	d
+SERIAL	dataxfer.c	46;"	d	file:
+SER_RS485_ENABLED	dataxfer.h	43;"	d
+SER_RS485_RTS_AFTER_SEND	dataxfer.h	46;"	d
+SER_RS485_RTS_ON_SEND	dataxfer.h	44;"	d
+SER_RS485_RX_DURING_TX	dataxfer.h	48;"	d
+SER_RS485_RX_DURING_TX	dataxfer.h	60;"	d
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SIGNATURE	utils.h	/^enum str_type { BANNER, OPENSTR, CLOSESTR, SIGNATURE };$/;"	e	enum:str_type
+SOURCES	Makefile	/^SOURCES = $(ser2net_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+TIOCGRS485	dataxfer.h	38;"	d
+TIOCSRS485	dataxfer.h	39;"	d
+TN_BREAK	telnet.h	8;"	d
+TN_DO	telnet.h	11;"	d
+TN_DONT	telnet.h	12;"	d
+TN_IAC	telnet.h	13;"	d
+TN_OPT_BINARY_TRANSMISSION	telnet.h	15;"	d
+TN_OPT_COM_PORT	telnet.h	18;"	d
+TN_OPT_ECHO	telnet.h	16;"	d
+TN_OPT_SUPPRESS_GO_AHEAD	telnet.h	17;"	d
+TN_WILL	telnet.h	9;"	d
+TN_WONT	telnet.h	10;"	d
+USE_RS485_FEATURE	dataxfer.h	33;"	d
+UTILS	utils.h	21;"	d
+VERSION	Makefile	/^VERSION = 2.10.0$/;"	m
+_SER2NET_BUFFER_H	buffer.h	21;"	d
+_SER2NET_TELNET_H	telnet.h	3;"	d
+abs_builddir	Makefile	/^abs_builddir = \/home\/chenay\/programs\/ser2net-2.10.0$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/chenay\/programs\/ser2net-2.10.0$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/chenay\/programs\/ser2net-2.10.0$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/chenay\/programs\/ser2net-2.10.0$/;"	m
+absout	dataxfer.h	/^struct absout {$/;"	s
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fn_c_check_func	configure	/^ac_fn_c_check_func ()$/;"	f
+ac_fn_c_check_header_compile	configure	/^ac_fn_c_check_header_compile ()$/;"	f
+ac_fn_c_check_header_mongrel	configure	/^ac_fn_c_check_header_mongrel ()$/;"	f
+ac_fn_c_try_compile	configure	/^ac_fn_c_try_compile ()$/;"	f
+ac_fn_c_try_cpp	configure	/^ac_fn_c_try_cpp ()$/;"	f
+ac_fn_c_try_link	configure	/^ac_fn_c_try_link ()$/;"	f
+ac_fn_c_try_run	configure	/^ac_fn_c_try_run ()$/;"	f
+acceptfds	controller.c	/^static int *acceptfds;	\/* The file descriptor for the accept port. *\/$/;"	v	file:
+acceptfds	dataxfer.c	/^    int            *acceptfds;		\/* The file descriptor used to$/;"	m	struct:port_info	file:
+add_to_heap	selector.c	/^add_to_heap(sel_timer_t **top, sel_timer_t **last, sel_timer_t *elem)$/;"	f	file:
+ai	dataxfer.c	/^    struct addrinfo    *ai;		\/* The address list for the portname. *\/$/;"	m	struct:port_info	typeref:struct:port_info::addrinfo	file:
+aix_post_process_depfile	depcomp	/^aix_post_process_depfile ()$/;"	f
+allow_2217	dataxfer.c	/^    int allow_2217;$/;"	m	struct:port_info	file:
+allow_severity	controller.c	/^int allow_severity = LOG_INFO;$/;"	v
+am__CONFIG_DISTCLEAN_FILES	Makefile	/^am__CONFIG_DISTCLEAN_FILES = config.status config.cache config.log \\$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/m4\/libtool.m4 \\$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__distuninstallcheck_listfiles	Makefile	/^am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \\$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(sbindir)" "$(DESTDIR)$(man8dir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = test -n '$(MAKEFILE_LIST)' && test -n '$(MAKELEVEL)'$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__post_remove_distdir	Makefile	/^am__post_remove_distdir = $(am__remove_distdir)$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__remove_distdir	Makefile	/^am__remove_distdir = \\$/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CCLD_	Makefile	/^am__v_CCLD_ = $(am__v_CCLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CCLD_0	Makefile	/^am__v_CCLD_0 = @echo "  CCLD    " $@;$/;"	m
+am__v_CCLD_1	Makefile	/^am__v_CCLD_1 = $/;"	m
+am__v_CC_	Makefile	/^am__v_CC_ = $(am__v_CC_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CC_0	Makefile	/^am__v_CC_0 = @echo "  CC      " $@;$/;"	m
+am__v_CC_1	Makefile	/^am__v_CC_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_ser2net_OBJECTS	Makefile	/^am_ser2net_OBJECTS = controller.$(OBJEXT) dataxfer.$(OBJEXT) \\$/;"	m
+arg_error	ser2net.c	/^arg_error(char *name)$/;"	f
+as_fn_append	config.status	/^  as_fn_append ()$/;"	f
+as_fn_append	configure	/^  as_fn_append ()$/;"	f
+as_fn_arith	config.status	/^  as_fn_arith ()$/;"	f
+as_fn_arith	configure	/^  as_fn_arith ()$/;"	f
+as_fn_error	config.status	/^as_fn_error ()$/;"	f
+as_fn_error	configure	/^as_fn_error ()$/;"	f
+as_fn_executable_p	config.status	/^as_fn_executable_p ()$/;"	f
+as_fn_executable_p	configure	/^as_fn_executable_p ()$/;"	f
+as_fn_exit	config.status	/^as_fn_exit ()$/;"	f
+as_fn_exit	configure	/^as_fn_exit ()$/;"	f
+as_fn_failure	configure	/^as_fn_failure () { as_fn_return 1; }$/;"	f
+as_fn_mkdir_p	config.status	/^as_fn_mkdir_p ()$/;"	f
+as_fn_mkdir_p	configure	/^as_fn_mkdir_p ()$/;"	f
+as_fn_ret_failure	configure	/^as_fn_ret_failure () { return 1; }$/;"	f
+as_fn_ret_success	configure	/^as_fn_ret_success () { return 0; }$/;"	f
+as_fn_set_status	config.status	/^as_fn_set_status ()$/;"	f
+as_fn_set_status	configure	/^as_fn_set_status ()$/;"	f
+as_fn_success	configure	/^as_fn_success () { as_fn_return 0; }$/;"	f
+as_fn_unset	config.status	/^as_fn_unset ()$/;"	f
+as_fn_unset	configure	/^as_fn_unset ()$/;"	f
+banner	dataxfer.c	/^    struct sbuf *banner;		\/* Outgoing banner *\/$/;"	m	struct:port_info	typeref:struct:port_info::sbuf	file:
+bannerstr	dataxfer.c	/^    char *bannerstr;$/;"	m	struct:port_info	file:
+baud_rate	devio.h	/^    int (*baud_rate)(struct devio *io, int *val, int cisco);$/;"	m	struct:devio_f
+baud_rates	devcfg.c	/^} baud_rates[] =$/;"	v	typeref:struct:baud_rates_s	file:
+baud_rates_s	devcfg.c	/^static struct baud_rates_s {$/;"	s	file:
+baud_string	devcfg.c	/^baud_string(int speed)$/;"	f	file:
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+break_set	devcfg.c	/^    int break_set;$/;"	m	struct:devcfg_data	file:
+buf	buffer.h	/^    unsigned char *buf;$/;"	m	struct:sbuf
+buffer_cursize	buffer.h	44;"	d
+buffer_init	buffer.c	/^buffer_init(struct sbuf *buf, unsigned char *data, unsigned int datasize)$/;"	f
+buffer_io_write	buffer.c	/^buffer_io_write(struct devio *io, struct sbuf *buf, int *buferr)$/;"	f
+buffer_left	buffer.h	42;"	d
+buffer_op	dataxfer.c	/^buffer_op(void *data, char c)$/;"	f	file:
+buffer_outchar	buffer.c	/^buffer_outchar(struct sbuf *buf, unsigned char data)$/;"	f
+buffer_output	buffer.c	/^buffer_output(struct sbuf *buf, unsigned char *data, unsigned int len)$/;"	f
+buffer_reset	buffer.h	46;"	d
+buffer_write	buffer.c	/^buffer_write(int fd, struct sbuf *buf, int *buferr)$/;"	f
+bufop_data	dataxfer.c	/^struct bufop_data {$/;"	s	file:
+build	Makefile	/^build = x86_64-unknown-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-unknown-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = unknown$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+cb_data	telnet.h	/^    void *cb_data;$/;"	m	struct:telnet_data_s
+cfmakeraw	devcfg.c	/^static void cfmakeraw(struct termios *termios_p) {$/;"	f	file:
+change_port_state	dataxfer.c	/^change_port_state(struct absout *eout, port_info_t *port, int state)$/;"	f
+check_ipv6_only	utils.c	/^check_ipv6_only(int family, struct sockaddr *addr, int fd)$/;"	f
+check_ports_shutdown	dataxfer.c	/^check_ports_shutdown(void)$/;"	f
+check_tree	selector.c	/^check_tree(sel_timer_t *top, sel_timer_t *last)$/;"	f	file:
+check_tree_item	selector.c	/^check_tree_item(sel_timer_t *curr,$/;"	f	file:
+cisco_ios_val	devcfg.c	/^    int cisco_ios_val;$/;"	m	struct:baud_rates_s	file:
+clear_old_port_config	dataxfer.c	/^clear_old_port_config(int curr_config)$/;"	f
+closestr	dataxfer.c	/^    char *closestr;$/;"	m	struct:port_info	file:
+cmd_handler	telnet.h	/^    void (*cmd_handler)(void *cb_data, unsigned char cmd);$/;"	m	struct:telnet_data_s
+cmds	telnet.h	/^    struct telnet_cmd *cmds;$/;"	m	struct:telnet_data_s	typeref:struct:telnet_data_s::telnet_cmd
+cmp_timeval	selector.c	/^cmp_timeval(struct timeval *tv1, struct timeval *tv2)$/;"	f	file:
+cntrl_abserrout	dataxfer.c	/^cntrl_abserrout(struct absout *o, const char *str, ...)$/;"	f	file:
+cntrl_absout	dataxfer.c	/^cntrl_absout(struct absout *o, const char *str, ...)$/;"	f	file:
+cntrl_ai	controller.c	/^static struct addrinfo *cntrl_ai;$/;"	v	typeref:struct:addrinfo	file:
+com_port_handler	dataxfer.c	/^com_port_handler(void *cb_data, unsigned char *option, int len)$/;"	f	file:
+com_port_will	dataxfer.c	/^com_port_will(void *cb_data)$/;"	f	file:
+conf	devcfg.c	/^    struct serial_rs485 *conf;$/;"	m	struct:devcfg_data	typeref:struct:devcfg_data::serial_rs485	file:
+conf	readconfig.c	/^    struct serial_rs485 conf;$/;"	m	struct:rs485conf_s	typeref:struct:rs485conf_s::serial_rs485	file:
+config_file	ser2net.c	/^static char *config_file = "\/etc\/ser2net.conf";$/;"	v	file:
+config_num	dataxfer.c	/^    int config_num; \/* Keep track of what configuration this was last$/;"	m	struct:port_info	file:
+config_num	readconfig.c	/^static int config_num = 0;$/;"	v	file:
+config_port	ser2net.c	/^char *config_port = NULL; \/* Can be set from readconfig, too. *\/$/;"	v
+config_port_from_cmdline	ser2net.c	/^int config_port_from_cmdline = 0;$/;"	v
+control	devio.h	/^    int (*control)(struct devio *io, unsigned char *val);$/;"	m	struct:devio_f
+controller_info	controller.c	/^typedef struct controller_info {$/;"	s	file:
+controller_info_t	controller.c	/^} controller_info_t;$/;"	t	typeref:struct:controller_info	file:
+controller_init	controller.c	/^controller_init(char *controller_port)$/;"	f
+controller_output	controller.c	/^controller_output(struct controller_info *cntlr,$/;"	f
+controller_outputf	controller.c	/^controller_outputf(struct controller_info *cntlr, const char *str, ...)$/;"	f
+controller_shutdown	controller.c	/^controller_shutdown(void)$/;"	f
+controller_voutputf	controller.c	/^controller_voutputf(struct controller_info *cntlr, const char *str, va_list ap)$/;"	f
+controller_write	controller.c	/^controller_write(struct controller_info *cntlr, const char *data, int count)$/;"	f
+controllers	controller.c	/^controller_info_t *controllers = NULL;$/;"	v
+count_op	dataxfer.c	/^count_op(void *data, char c)$/;"	f	file:
+cursize	buffer.h	/^    unsigned int cursize;$/;"	m	struct:sbuf
+data	dataxfer.h	/^    void *data;$/;"	m	struct:absout
+data	selector.c	/^    void             *data;		\/* Operation-specific data *\/$/;"	m	struct:fd_control_s	file:
+data_monitor_start	dataxfer.c	/^data_monitor_start(struct controller_info *cntlr,$/;"	f
+data_monitor_stop	dataxfer.c	/^data_monitor_stop(struct controller_info *cntlr,$/;"	f
+data_size	devio.h	/^    int (*data_size)(struct devio *io, unsigned char *val);$/;"	m	struct:devio_f
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+debug	ser2net.c	/^static int debug = 0;$/;"	v	file:
+debug_out	selector.c	/^FILE **debug_out = &stderr;$/;"	v
+delay_rts_after_send	dataxfer.h	/^    __u32 delay_rts_after_send;  \/* Delay after send (milliseconds) *\/$/;"	m	struct:serial_rs485
+delay_rts_before_send	dataxfer.h	/^    __u32 delay_rts_before_send; \/* Delay before send (milliseconds) *\/$/;"	m	struct:serial_rs485
+delete_char	telnet.c	/^delete_char(unsigned char *data, int pos, int len)$/;"	f	file:
+deny_severity	controller.c	/^int deny_severity = LOG_WARNING;$/;"	v
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/depcomp$/;"	m
+detach	ser2net.c	/^static int detach = 1;$/;"	v	file:
+dev_bytes_received	dataxfer.c	/^    unsigned int dev_bytes_received;    \/* Number of bytes read from the$/;"	m	struct:port_info	file:
+dev_bytes_sent	dataxfer.c	/^    unsigned int dev_bytes_sent;        \/* Number of bytes written to the$/;"	m	struct:port_info	file:
+dev_fd_write	dataxfer.c	/^dev_fd_write(port_info_t *port, struct sbuf *buf)$/;"	f	file:
+dev_monitor	dataxfer.c	/^    struct controller_info *dev_monitor; \/* If non-null, send any input$/;"	m	struct:port_info	typeref:struct:port_info::controller_info	file:
+dev_to_tcp	dataxfer.c	/^    struct sbuf    dev_to_tcp;			\/* Buffer struct for$/;"	m	struct:port_info	typeref:struct:port_info::sbuf	file:
+dev_to_tcp_state	dataxfer.c	/^    int            dev_to_tcp_state;		\/* State of transferring$/;"	m	struct:port_info	file:
+dev_to_tcpbuf	dataxfer.c	/^    unsigned char  dev_to_tcpbuf[PORT_BUFSIZE]; \/* Buffer used for$/;"	m	struct:port_info	file:
+devcfg_baud_rate	devcfg.c	/^static int devcfg_baud_rate(struct devio *io, int *val, int cisco)$/;"	f	file:
+devcfg_control	devcfg.c	/^static int devcfg_control(struct devio *io, unsigned char *val)$/;"	f	file:
+devcfg_data	devcfg.c	/^struct devcfg_data {$/;"	s	file:
+devcfg_data_size	devcfg.c	/^static int devcfg_data_size(struct devio *io, unsigned char *val)$/;"	f	file:
+devcfg_except_handler_enable	devcfg.c	/^static void devcfg_except_handler_enable(struct devio *io, int enabled)$/;"	f	file:
+devcfg_flow_control	devcfg.c	/^static int devcfg_flow_control(struct devio *io, unsigned char val)$/;"	f	file:
+devcfg_flush	devcfg.c	/^static int devcfg_flush(struct devio *io, int *val)$/;"	f	file:
+devcfg_free	devcfg.c	/^static void devcfg_free(struct devio *io)$/;"	f	file:
+devcfg_get_modem_state	devcfg.c	/^static int devcfg_get_modem_state(struct devio *io, unsigned char *modemstate)$/;"	f	file:
+devcfg_init	devcfg.c	/^devcfg_init(struct devio *io, struct absout *eout, const char *instr,$/;"	f
+devcfg_io_f	devcfg.c	/^static struct devio_f devcfg_io_f = {$/;"	v	typeref:struct:devio_f	file:
+devcfg_parity	devcfg.c	/^static int devcfg_parity(struct devio *io, unsigned char *val)$/;"	f	file:
+devcfg_read	devcfg.c	/^static int devcfg_read(struct devio *io, void *buf, size_t size)$/;"	f	file:
+devcfg_read_handler_enable	devcfg.c	/^static void devcfg_read_handler_enable(struct devio *io, int enabled)$/;"	f	file:
+devcfg_reconfig	devcfg.c	/^devcfg_reconfig(struct devio *io, struct absout *eout, const char *instr,$/;"	f	file:
+devcfg_send_break	devcfg.c	/^static int devcfg_send_break(struct devio *io)$/;"	f	file:
+devcfg_serparm_to_str	devcfg.c	/^devcfg_serparm_to_str(struct devio *io, char *str, int strlen)$/;"	f	file:
+devcfg_set_devcontrol	devcfg.c	/^devcfg_set_devcontrol(struct devio *io, const char *instr)$/;"	f	file:
+devcfg_setup	devcfg.c	/^static int devcfg_setup(struct devio *io, const char *name, const char **errstr)$/;"	f	file:
+devcfg_show_devcfg	devcfg.c	/^devcfg_show_devcfg(struct devio *io, struct absout *out)$/;"	f	file:
+devcfg_show_devcontrol	devcfg.c	/^devcfg_show_devcontrol(struct devio *io, struct absout *out)$/;"	f	file:
+devcfg_shutdown	devcfg.c	/^static void devcfg_shutdown(struct devio *io)$/;"	f	file:
+devcfg_stop_size	devcfg.c	/^static int devcfg_stop_size(struct devio *io, unsigned char *val)$/;"	f	file:
+devcfg_write	devcfg.c	/^static int devcfg_write(struct devio *io, void *buf, size_t size)$/;"	f	file:
+devcfg_write_handler_enable	devcfg.c	/^static void devcfg_write_handler_enable(struct devio *io, int enabled)$/;"	f	file:
+devconfig	devcfg.c	/^devconfig(struct devcfg_data *d, struct absout *eout, const char *instr,$/;"	f	file:
+devfd	devcfg.c	/^    int            devfd;		\/* The file descriptor for the$/;"	m	struct:devcfg_data	file:
+devinit	devcfg.c	/^devinit(struct termios *termctl)$/;"	f	file:
+devio	devio.h	/^struct devio {$/;"	s
+devio_f	devio.h	/^struct devio_f {$/;"	s
+devname	devcfg.c	/^    char           *devname;		\/* The full path to the device *\/$/;"	m	struct:devcfg_data	file:
+devname	devio.h	/^    char *devname;$/;"	m	struct:devio
+devstr	dataxfer.c	/^    struct sbuf *devstr;		 \/* Outgoing string *\/$/;"	m	struct:port_info	typeref:struct:port_info::sbuf	file:
+diff_timeval	selector.c	/^diff_timeval(struct timeval *dest,$/;"	f	file:
+disablebreak	devcfg.c	/^    int disablebreak;$/;"	m	struct:devcfg_data	file:
+disconnect_port	dataxfer.c	/^disconnect_port(struct controller_info *cntlr,$/;"	f
+distcleancheck_listfiles	Makefile	/^distcleancheck_listfiles = find . -type f -print$/;"	m
+distdir	Makefile	/^distdir = $(PACKAGE)-$(VERSION)$/;"	m
+distuninstallcheck_listfiles	Makefile	/^distuninstallcheck_listfiles = find . -type f -print$/;"	m
+do_except	devcfg.c	/^do_except(int fd, void *data)$/;"	f	file:
+do_read	devcfg.c	/^do_read(int fd, void *data)$/;"	f	file:
+do_trace	dataxfer.c	/^do_trace(port_info_t *port, trace_info_t *t, unsigned char *buf,$/;"	f	file:
+do_write	devcfg.c	/^do_write(int fd, void *data)$/;"	f	file:
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+enabled	dataxfer.c	/^    int            enabled;		\/* If PORT_DISABLED, the port$/;"	m	struct:port_info	file:
+enabled_str	dataxfer.c	/^char *enabled_str[] = { "off", "raw", "rawlp", "telnet" };$/;"	v
+error	telnet.h	/^    int error;$/;"	m	struct:telnet_data_s
+except_handler	devio.h	/^    void (*except_handler)(struct devio *io);$/;"	m	struct:devio
+except_handler_enable	devio.h	/^    void (*except_handler_enable)(struct devio *io, int enabled);$/;"	m	struct:devio_f
+except_set	selector.c	/^    fd_set except_set;$/;"	m	struct:selector_s	file:
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+f	devio.h	/^    struct devio_f *f;$/;"	m	struct:devio	typeref:struct:devio::devio_f
+fd	dataxfer.c	/^    int  fd;          \/* open file.  -1 if not used *\/$/;"	m	struct:trace_info_s	file:
+fd_control_s	selector.c	/^typedef struct fd_control_s$/;"	s	file:
+fd_control_t	selector.c	/^} fd_control_t;$/;"	t	typeref:struct:fd_control_s	file:
+fds	selector.c	/^    fd_control_t fds[FD_SETSIZE];$/;"	m	struct:selector_s	file:
+filename	dataxfer.c	/^    char *filename;   \/* open file.  NULL if not used *\/$/;"	m	struct:trace_info_s	file:
+find_cmd	telnet.c	/^find_cmd(struct telnet_cmd *array, unsigned char option)$/;"	f	file:
+find_next_pos	selector.c	/^find_next_pos(sel_timer_t *curr, sel_timer_t ***next, sel_timer_t **parent)$/;"	f	file:
+find_port_by_num	dataxfer.c	/^find_port_by_num(char *portstr)$/;"	f	file:
+find_prev_elem	selector.c	/^find_prev_elem(sel_timer_t *curr, sel_timer_t **prev)$/;"	f	file:
+find_rs485conf	readconfig.c	/^find_rs485conf(const char *name)$/;"	f
+find_str	readconfig.c	/^find_str(const char *name, enum str_type *type)$/;"	f
+find_tracefile	readconfig.c	/^find_tracefile(const char *name)$/;"	f
+finish_longstr	readconfig.c	/^finish_longstr(void)$/;"	f	file:
+finish_shutdown_port	dataxfer.c	/^finish_shutdown_port(port_info_t *port)$/;"	f	file:
+flags	dataxfer.h	/^    __u32 flags; \/* RS485 feature flags *\/$/;"	m	struct:serial_rs485
+flow_control	devio.h	/^    int (*flow_control)(struct devio *io, unsigned char val);$/;"	m	struct:devio_f
+flush	devio.h	/^    int (*flush)(struct devio *io, int *val);$/;"	m	struct:devio_f
+footer_trace	dataxfer.c	/^footer_trace(port_info_t *port, char *reason)$/;"	f	file:
+free	devio.h	/^    void (*free)(struct devio *io);$/;"	m	struct:devio_f
+free_heap_element	selector.c	/^free_heap_element(sel_timer_t *elem)$/;"	f	file:
+free_longstrs	readconfig.c	/^free_longstrs(void)$/;"	f	file:
+free_port	dataxfer.c	/^free_port(port_info_t *port)$/;"	f	file:
+free_rs485confs	readconfig.c	/^free_rs485confs(void)$/;"	f	file:
+free_tracefiles	readconfig.c	/^free_tracefiles(void)$/;"	f	file:
+from_hex_digit	dataxfer.c	/^from_hex_digit(char c)$/;"	f	file:
+func_append	config.status	/^func_append ()\\$/;"	f
+func_append	configure	/^func_append ()\\$/;"	f
+func_append	libtool	/^func_append ()$/;"	f
+func_append	ltmain.sh	/^func_append ()$/;"	f
+func_append_quoted	config.status	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	configure	/^func_append_quoted ()\\$/;"	f
+func_append_quoted	libtool	/^func_append_quoted ()$/;"	f
+func_append_quoted	ltmain.sh	/^func_append_quoted ()$/;"	f
+func_arith	config.status	/^func_arith ()\\$/;"	f
+func_arith	configure	/^func_arith ()\\$/;"	f
+func_arith	libtool	/^func_arith ()$/;"	f
+func_arith	ltmain.sh	/^func_arith ()$/;"	f
+func_basename	config.status	/^func_basename ()\\$/;"	f
+func_basename	configure	/^func_basename ()\\$/;"	f
+func_basename	libtool	/^func_basename ()$/;"	f
+func_basename	ltmain.sh	/^func_basename ()$/;"	f
+func_check_version_match	libtool	/^func_check_version_match ()$/;"	f
+func_check_version_match	ltmain.sh	/^func_check_version_match ()$/;"	f
+func_config	libtool	/^func_config ()$/;"	f
+func_config	ltmain.sh	/^func_config ()$/;"	f
+func_convert_core_file_wine_to_w32	libtool	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_file_wine_to_w32	ltmain.sh	/^func_convert_core_file_wine_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	libtool	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_msys_to_w32	ltmain.sh	/^func_convert_core_msys_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	libtool	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_core_path_wine_to_w32	ltmain.sh	/^func_convert_core_path_wine_to_w32 ()$/;"	f
+func_convert_file_check	libtool	/^func_convert_file_check ()$/;"	f
+func_convert_file_check	ltmain.sh	/^func_convert_file_check ()$/;"	f
+func_convert_file_cygwin_to_w32	libtool	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_cygwin_to_w32	ltmain.sh	/^func_convert_file_cygwin_to_w32 ()$/;"	f
+func_convert_file_msys_to_cygwin	libtool	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_cygwin	ltmain.sh	/^func_convert_file_msys_to_cygwin ()$/;"	f
+func_convert_file_msys_to_w32	libtool	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_msys_to_w32	ltmain.sh	/^func_convert_file_msys_to_w32 ()$/;"	f
+func_convert_file_nix_to_cygwin	libtool	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_cygwin	ltmain.sh	/^func_convert_file_nix_to_cygwin ()$/;"	f
+func_convert_file_nix_to_w32	libtool	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_nix_to_w32	ltmain.sh	/^func_convert_file_nix_to_w32 ()$/;"	f
+func_convert_file_noop	libtool	/^func_convert_file_noop ()$/;"	f
+func_convert_file_noop	ltmain.sh	/^func_convert_file_noop ()$/;"	f
+func_convert_path_check	libtool	/^func_convert_path_check ()$/;"	f
+func_convert_path_check	ltmain.sh	/^func_convert_path_check ()$/;"	f
+func_convert_path_cygwin_to_w32	libtool	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_cygwin_to_w32	ltmain.sh	/^func_convert_path_cygwin_to_w32 ()$/;"	f
+func_convert_path_front_back_pathsep	libtool	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_front_back_pathsep	ltmain.sh	/^func_convert_path_front_back_pathsep ()$/;"	f
+func_convert_path_msys_to_cygwin	libtool	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_cygwin	ltmain.sh	/^func_convert_path_msys_to_cygwin ()$/;"	f
+func_convert_path_msys_to_w32	libtool	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_msys_to_w32	ltmain.sh	/^func_convert_path_msys_to_w32 ()$/;"	f
+func_convert_path_nix_to_cygwin	libtool	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_cygwin	ltmain.sh	/^func_convert_path_nix_to_cygwin ()$/;"	f
+func_convert_path_nix_to_w32	libtool	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_nix_to_w32	ltmain.sh	/^func_convert_path_nix_to_w32 ()$/;"	f
+func_convert_path_noop	libtool	/^func_convert_path_noop ()$/;"	f
+func_convert_path_noop	ltmain.sh	/^func_convert_path_noop ()$/;"	f
+func_cygming_dll_for_implib	libtool	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib	ltmain.sh	/^func_cygming_dll_for_implib ()$/;"	f
+func_cygming_dll_for_implib_fallback	libtool	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback	ltmain.sh	/^func_cygming_dll_for_implib_fallback ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	libtool	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_dll_for_implib_fallback_core	ltmain.sh	/^func_cygming_dll_for_implib_fallback_core ()$/;"	f
+func_cygming_gnu_implib_p	libtool	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_gnu_implib_p	ltmain.sh	/^func_cygming_gnu_implib_p ()$/;"	f
+func_cygming_ms_implib_p	libtool	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygming_ms_implib_p	ltmain.sh	/^func_cygming_ms_implib_p ()$/;"	f
+func_cygpath	libtool	/^func_cygpath ()$/;"	f
+func_cygpath	ltmain.sh	/^func_cygpath ()$/;"	f
+func_dirname	config.status	/^func_dirname ()\\$/;"	f
+func_dirname	configure	/^func_dirname ()\\$/;"	f
+func_dirname	libtool	/^func_dirname ()$/;"	f
+func_dirname	ltmain.sh	/^func_dirname ()$/;"	f
+func_dirname_and_basename	config.status	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	configure	/^func_dirname_and_basename ()\\$/;"	f
+func_dirname_and_basename	libtool	/^func_dirname_and_basename ()$/;"	f
+func_dirname_and_basename	ltmain.sh	/^func_dirname_and_basename ()$/;"	f
+func_echo	libtool	/^func_echo ()$/;"	f
+func_echo	ltmain.sh	/^func_echo ()$/;"	f
+func_echo_all	configure	/^func_echo_all ()$/;"	f
+func_echo_all	libtool	/^func_echo_all ()$/;"	f
+func_echo_all	ltmain.sh	/^func_echo_all ()$/;"	f
+func_emit_cwrapperexe_src	libtool	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_cwrapperexe_src	ltmain.sh	/^func_emit_cwrapperexe_src ()$/;"	f
+func_emit_wrapper	libtool	/^func_emit_wrapper ()$/;"	f
+func_emit_wrapper	ltmain.sh	/^func_emit_wrapper ()$/;"	f
+func_enable_tag	libtool	/^func_enable_tag ()$/;"	f
+func_enable_tag	ltmain.sh	/^func_enable_tag ()$/;"	f
+func_error	libtool	/^func_error ()$/;"	f
+func_error	ltmain.sh	/^func_error ()$/;"	f
+func_exec_program	libtool	/^func_exec_program ()$/;"	f
+func_exec_program	ltmain.sh	/^func_exec_program ()$/;"	f
+func_exec_program_core	libtool	/^func_exec_program_core ()$/;"	f
+func_exec_program_core	ltmain.sh	/^func_exec_program_core ()$/;"	f
+func_execute_cmds	libtool	/^func_execute_cmds ()$/;"	f
+func_execute_cmds	ltmain.sh	/^func_execute_cmds ()$/;"	f
+func_extract_an_archive	libtool	/^func_extract_an_archive ()$/;"	f
+func_extract_an_archive	ltmain.sh	/^func_extract_an_archive ()$/;"	f
+func_extract_archives	libtool	/^func_extract_archives ()$/;"	f
+func_extract_archives	ltmain.sh	/^func_extract_archives ()$/;"	f
+func_fallback_echo	config.status	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^  func_fallback_echo ()$/;"	f
+func_fallback_echo	configure	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	libtool	/^func_fallback_echo ()$/;"	f
+func_fallback_echo	ltmain.sh	/^func_fallback_echo ()$/;"	f
+func_fatal_configuration	libtool	/^func_fatal_configuration ()$/;"	f
+func_fatal_configuration	ltmain.sh	/^func_fatal_configuration ()$/;"	f
+func_fatal_error	libtool	/^func_fatal_error ()$/;"	f
+func_fatal_error	ltmain.sh	/^func_fatal_error ()$/;"	f
+func_fatal_help	libtool	/^func_fatal_help ()$/;"	f
+func_fatal_help	ltmain.sh	/^func_fatal_help ()$/;"	f
+func_features	libtool	/^func_features ()$/;"	f
+func_features	ltmain.sh	/^func_features ()$/;"	f
+func_generate_dlsyms	libtool	/^func_generate_dlsyms ()$/;"	f
+func_generate_dlsyms	ltmain.sh	/^func_generate_dlsyms ()$/;"	f
+func_grep	libtool	/^func_grep ()$/;"	f
+func_grep	ltmain.sh	/^func_grep ()$/;"	f
+func_help	libtool	/^func_help ()$/;"	f
+func_help	ltmain.sh	/^func_help ()$/;"	f
+func_infer_tag	libtool	/^func_infer_tag ()$/;"	f
+func_infer_tag	ltmain.sh	/^func_infer_tag ()$/;"	f
+func_init_to_host_path_cmd	libtool	/^func_init_to_host_path_cmd ()$/;"	f
+func_init_to_host_path_cmd	ltmain.sh	/^func_init_to_host_path_cmd ()$/;"	f
+func_lalib_p	libtool	/^func_lalib_p ()$/;"	f
+func_lalib_p	ltmain.sh	/^func_lalib_p ()$/;"	f
+func_lalib_unsafe_p	libtool	/^func_lalib_unsafe_p ()$/;"	f
+func_lalib_unsafe_p	ltmain.sh	/^func_lalib_unsafe_p ()$/;"	f
+func_len	config.status	/^func_len ()\\$/;"	f
+func_len	configure	/^func_len ()\\$/;"	f
+func_len	libtool	/^func_len ()$/;"	f
+func_len	ltmain.sh	/^func_len ()$/;"	f
+func_lo2o	config.status	/^func_lo2o ()\\$/;"	f
+func_lo2o	configure	/^func_lo2o ()\\$/;"	f
+func_lo2o	libtool	/^func_lo2o ()$/;"	f
+func_lo2o	ltmain.sh	/^func_lo2o ()$/;"	f
+func_lt_dump_args	libtool	/^func_lt_dump_args ()$/;"	f
+func_lt_dump_args	ltmain.sh	/^func_lt_dump_args ()$/;"	f
+func_ltwrapper_executable_p	libtool	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_executable_p	ltmain.sh	/^func_ltwrapper_executable_p ()$/;"	f
+func_ltwrapper_p	libtool	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_p	ltmain.sh	/^func_ltwrapper_p ()$/;"	f
+func_ltwrapper_script_p	libtool	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_script_p	ltmain.sh	/^func_ltwrapper_script_p ()$/;"	f
+func_ltwrapper_scriptname	libtool	/^func_ltwrapper_scriptname ()$/;"	f
+func_ltwrapper_scriptname	ltmain.sh	/^func_ltwrapper_scriptname ()$/;"	f
+func_missing_arg	libtool	/^func_missing_arg ()$/;"	f
+func_missing_arg	ltmain.sh	/^func_missing_arg ()$/;"	f
+func_mkdir_p	libtool	/^func_mkdir_p ()$/;"	f
+func_mkdir_p	ltmain.sh	/^func_mkdir_p ()$/;"	f
+func_mktempdir	libtool	/^func_mktempdir ()$/;"	f
+func_mktempdir	ltmain.sh	/^func_mktempdir ()$/;"	f
+func_mode_compile	libtool	/^func_mode_compile ()$/;"	f
+func_mode_compile	ltmain.sh	/^func_mode_compile ()$/;"	f
+func_mode_execute	libtool	/^func_mode_execute ()$/;"	f
+func_mode_execute	ltmain.sh	/^func_mode_execute ()$/;"	f
+func_mode_finish	libtool	/^func_mode_finish ()$/;"	f
+func_mode_finish	ltmain.sh	/^func_mode_finish ()$/;"	f
+func_mode_help	libtool	/^func_mode_help ()$/;"	f
+func_mode_help	ltmain.sh	/^func_mode_help ()$/;"	f
+func_mode_install	libtool	/^func_mode_install ()$/;"	f
+func_mode_install	ltmain.sh	/^func_mode_install ()$/;"	f
+func_mode_link	libtool	/^func_mode_link ()$/;"	f
+func_mode_link	ltmain.sh	/^func_mode_link ()$/;"	f
+func_mode_uninstall	libtool	/^func_mode_uninstall ()$/;"	f
+func_mode_uninstall	ltmain.sh	/^func_mode_uninstall ()$/;"	f
+func_normal_abspath	libtool	/^func_normal_abspath ()$/;"	f
+func_normal_abspath	ltmain.sh	/^func_normal_abspath ()$/;"	f
+func_parse_lt_options	libtool	/^func_parse_lt_options ()$/;"	f
+func_parse_lt_options	ltmain.sh	/^func_parse_lt_options ()$/;"	f
+func_quote_for_eval	libtool	/^func_quote_for_eval ()$/;"	f
+func_quote_for_eval	ltmain.sh	/^func_quote_for_eval ()$/;"	f
+func_quote_for_expand	libtool	/^func_quote_for_expand ()$/;"	f
+func_quote_for_expand	ltmain.sh	/^func_quote_for_expand ()$/;"	f
+func_relative_path	libtool	/^func_relative_path ()$/;"	f
+func_relative_path	ltmain.sh	/^func_relative_path ()$/;"	f
+func_replace_sysroot	libtool	/^func_replace_sysroot ()$/;"	f
+func_replace_sysroot	ltmain.sh	/^func_replace_sysroot ()$/;"	f
+func_resolve_sysroot	libtool	/^func_resolve_sysroot ()$/;"	f
+func_resolve_sysroot	ltmain.sh	/^func_resolve_sysroot ()$/;"	f
+func_show_eval	libtool	/^func_show_eval ()$/;"	f
+func_show_eval	ltmain.sh	/^func_show_eval ()$/;"	f
+func_show_eval_locale	libtool	/^func_show_eval_locale ()$/;"	f
+func_show_eval_locale	ltmain.sh	/^func_show_eval_locale ()$/;"	f
+func_source	libtool	/^func_source ()$/;"	f
+func_source	ltmain.sh	/^func_source ()$/;"	f
+func_split_long_opt	config.status	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	configure	/^func_split_long_opt ()\\$/;"	f
+func_split_long_opt	libtool	/^func_split_long_opt ()$/;"	f
+func_split_long_opt	ltmain.sh	/^func_split_long_opt ()$/;"	f
+func_split_short_opt	config.status	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	configure	/^func_split_short_opt ()\\$/;"	f
+func_split_short_opt	libtool	/^func_split_short_opt ()$/;"	f
+func_split_short_opt	ltmain.sh	/^func_split_short_opt ()$/;"	f
+func_stripname	config.status	/^func_stripname ()\\$/;"	f
+func_stripname	configure	/^func_stripname ()\\$/;"	f
+func_stripname	libtool	/^func_stripname ()$/;"	f
+func_stripname	ltmain.sh	/^func_stripname ()$/;"	f
+func_to_host_file	libtool	/^func_to_host_file ()$/;"	f
+func_to_host_file	ltmain.sh	/^func_to_host_file ()$/;"	f
+func_to_host_path	libtool	/^func_to_host_path ()$/;"	f
+func_to_host_path	ltmain.sh	/^func_to_host_path ()$/;"	f
+func_to_tool_file	libtool	/^func_to_tool_file ()$/;"	f
+func_to_tool_file	ltmain.sh	/^func_to_tool_file ()$/;"	f
+func_tr_sh	libtool	/^func_tr_sh ()$/;"	f
+func_tr_sh	ltmain.sh	/^func_tr_sh ()$/;"	f
+func_usage	libtool	/^func_usage ()$/;"	f
+func_usage	ltmain.sh	/^func_usage ()$/;"	f
+func_verbose	libtool	/^func_verbose ()$/;"	f
+func_verbose	ltmain.sh	/^func_verbose ()$/;"	f
+func_version	libtool	/^func_version ()$/;"	f
+func_version	ltmain.sh	/^func_version ()$/;"	f
+func_warning	libtool	/^func_warning ()$/;"	f
+func_warning	ltmain.sh	/^func_warning ()$/;"	f
+func_win32_import_lib_p	libtool	/^func_win32_import_lib_p ()$/;"	f
+func_win32_import_lib_p	ltmain.sh	/^func_win32_import_lib_p ()$/;"	f
+func_win32_libid	libtool	/^func_win32_libid ()$/;"	f
+func_win32_libid	ltmain.sh	/^func_win32_libid ()$/;"	f
+func_write_libtool_object	libtool	/^func_write_libtool_object ()$/;"	f
+func_write_libtool_object	ltmain.sh	/^func_write_libtool_object ()$/;"	f
+func_xform	config.status	/^func_xform ()\\$/;"	f
+func_xform	configure	/^func_xform ()\\$/;"	f
+func_xform	libtool	/^func_xform ()$/;"	f
+func_xform	ltmain.sh	/^func_xform ()$/;"	f
+get_baud_rate	devcfg.c	/^get_baud_rate(int rate, int *val, int cisco)$/;"	f	file:
+get_modem_state	devio.h	/^    int (*get_modem_state)(struct devio *io, unsigned char *val);$/;"	m	struct:devio_f
+get_rate_from_baud_rate	devcfg.c	/^get_rate_from_baud_rate(int baud_rate, int *val, int cisco)$/;"	f	file:
+get_rs485_conf	dataxfer.c	/^struct serial_rs485 *get_rs485_conf(void *data)$/;"	f
+give_advice	missing	/^give_advice ()$/;"	f
+got_sighup	selector.c	/^static int got_sighup = 0; \/* Did I get a HUP signal? *\/$/;"	v	file:
+got_sigint	selector.c	/^static int got_sigint = 0; \/* Did I get an INT signal? *\/$/;"	v	file:
+got_timeout	dataxfer.c	/^got_timeout(selector_t  *sel,$/;"	f
+handle_accept_port_read	controller.c	/^handle_accept_port_read(int fd, void *data)$/;"	f	file:
+handle_accept_port_read	dataxfer.c	/^handle_accept_port_read(int fd, void *data)$/;"	f	file:
+handle_config_line	readconfig.c	/^handle_config_line(char *inbuf)$/;"	f
+handle_continued_longstr	readconfig.c	/^handle_continued_longstr(char *line)$/;"	f	file:
+handle_dev_fd_close_write	dataxfer.c	/^handle_dev_fd_close_write(struct devio *io)$/;"	f	file:
+handle_dev_fd_devstr_write	dataxfer.c	/^handle_dev_fd_devstr_write(struct devio *io)$/;"	f	file:
+handle_dev_fd_except	dataxfer.c	/^handle_dev_fd_except(struct devio *io)$/;"	f	file:
+handle_dev_fd_read	dataxfer.c	/^handle_dev_fd_read(struct devio *io)$/;"	f	file:
+handle_dev_fd_write	dataxfer.c	/^handle_dev_fd_write(struct devio *io)$/;"	f	file:
+handle_except	selector.c	/^    sel_fd_handler_t handle_except;$/;"	m	struct:fd_control_s	file:
+handle_longstr	readconfig.c	/^handle_longstr(char *name, char *line, enum str_type type)$/;"	f	file:
+handle_read	selector.c	/^    sel_fd_handler_t handle_read;$/;"	m	struct:fd_control_s	file:
+handle_rs485conf	readconfig.c	/^handle_rs485conf(char *name, char *str)$/;"	f	file:
+handle_tcp_fd_banner_write	dataxfer.c	/^handle_tcp_fd_banner_write(int fd, void *data)$/;"	f	file:
+handle_tcp_fd_except	controller.c	/^handle_tcp_fd_except(int fd, void *data)$/;"	f	file:
+handle_tcp_fd_except	dataxfer.c	/^handle_tcp_fd_except(int fd, void *data)$/;"	f	file:
+handle_tcp_fd_read	controller.c	/^handle_tcp_fd_read(int fd, void *data)$/;"	f	file:
+handle_tcp_fd_read	dataxfer.c	/^handle_tcp_fd_read(int fd, void *data)$/;"	f	file:
+handle_tcp_fd_write	controller.c	/^handle_tcp_fd_write(int fd, void *data)$/;"	f	file:
+handle_tcp_fd_write	dataxfer.c	/^handle_tcp_fd_write(int fd, void *data)$/;"	f	file:
+handle_telnet_cmd	telnet.c	/^handle_telnet_cmd(telnet_data_t *td)$/;"	f	file:
+handle_tracefile	readconfig.c	/^handle_tracefile(char *name, char *fname)$/;"	f	file:
+handle_write	selector.c	/^    sel_fd_handler_t handle_write;$/;"	m	struct:fd_control_s	file:
+handler	selector.c	/^    sel_timeout_handler_t handler;$/;"	m	struct:sel_timer_s	file:
+header_trace	dataxfer.c	/^header_trace(port_info_t *port)$/;"	f	file:
+help_str	controller.c	/^static char *help_str =$/;"	v	file:
+help_string	ser2net.c	/^static char *help_string =$/;"	v	file:
+hexdump	dataxfer.c	/^    int  hexdump;     \/* output each block as a hexdump *\/$/;"	m	struct:trace_info_s	file:
+hf_out	dataxfer.c	/^hf_out(port_info_t *port, char *buf, int len)$/;"	f	file:
+host	Makefile	/^host = x86_64-unknown-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-unknown-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = unknown$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+i_do	telnet.h	/^    unsigned int i_do : 1;$/;"	m	struct:telnet_cmd
+i_will	telnet.h	/^    unsigned int i_will : 1;$/;"	m	struct:telnet_cmd
+in_heap	selector.c	/^    int in_heap;$/;"	m	struct:sel_timer_s	file:
+in_use	selector.c	/^    int              in_use;$/;"	m	struct:fd_control_s	file:
+inbuf	controller.c	/^    unsigned char inbuf[INBUF_SIZE+1];	\/* Buffer to receive command on. *\/$/;"	m	struct:controller_info	file:
+inbuf_count	controller.c	/^    int  inbuf_count;			\/* The number of bytes currently$/;"	m	struct:controller_info	file:
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init_fd	selector.c	/^init_fd(fd_control_t *fd)$/;"	f	file:
+init_port_data	dataxfer.c	/^init_port_data(port_info_t *port)$/;"	f	file:
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/chenay\/programs\/ser2net-2.10.0\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+io	dataxfer.c	/^    struct devio io; \/* For handling I\/O operation to the device *\/$/;"	m	struct:port_info	typeref:struct:port_info::devio	file:
+is_2217	dataxfer.c	/^    int is_2217;$/;"	m	struct:port_info	file:
+is_device_already_inuse	dataxfer.c	/^is_device_already_inuse(port_info_t *check_port)$/;"	f	file:
+is_stdio	dataxfer.c	/^    int                is_stdio;	\/* Do stdio on the port? *\/$/;"	m	struct:port_info	file:
+isallzero	dataxfer.c	/^isallzero(char *str)$/;"	f	file:
+kickolduser_mode	dataxfer.c	/^    int kickolduser_mode;$/;"	m	struct:port_info	file:
+last_modemstate	dataxfer.c	/^    unsigned char last_modemstate;$/;"	m	struct:port_info	file:
+lbuffer_write	buffer.c	/^lbuffer_write(struct devio *io, int fd, struct sbuf *buf, int *buferr)$/;"	f	file:
+left	selector.c	/^    sel_timer_t *left, *right, *up;$/;"	m	struct:sel_timer_s	file:
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+lineno	readconfig.c	/^static int lineno = 0;$/;"	v	file:
+linestate_mask	dataxfer.c	/^    unsigned char linestate_mask;$/;"	m	struct:port_info	file:
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+longstr_s	readconfig.c	/^struct longstr_s$/;"	s	file:
+longstrs	readconfig.c	/^struct longstr_s *longstrs = NULL;$/;"	v	typeref:struct:longstr_s
+main	config.guess	/^		main()$/;"	f
+main	config.guess	/^	main ()$/;"	f
+main	config.guess	/^main ()$/;"	f
+main	ser2net.c	/^main(int argc, char *argv[])$/;"	f
+make_dummy_depfile	depcomp	/^make_dummy_depfile ()$/;"	f
+make_pidfile	ser2net.c	/^make_pidfile(char *pidfile)$/;"	f
+man8dir	Makefile	/^man8dir = $(mandir)\/man8$/;"	m
+man_MANS	Makefile	/^man_MANS = ser2net.8$/;"	m
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+max_controller_ports	controller.c	/^static int max_controller_ports = 4;	\/* How many control connections$/;"	v	file:
+maxfd	selector.c	/^    int maxfd; \/* The largest file descriptor registered with this$/;"	m	struct:selector_s	file:
+maxsize	buffer.h	/^    unsigned int maxsize;$/;"	m	struct:sbuf
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+modem_state_handler	devio.h	/^    void (*modem_state_handler)(struct devio *io, int modem_state);$/;"	m	struct:devio
+modemstate_mask	dataxfer.c	/^    unsigned char modemstate_mask;$/;"	m	struct:port_info	file:
+monitor_port_id	controller.c	/^    void *monitor_port_id;		\/* When port monitoring, this is$/;"	m	struct:controller_info	file:
+my_data	devio.h	/^    void *my_data;$/;"	m	struct:devio
+myconfig	dataxfer.c	/^myconfig(void *data, struct absout *eout, const char *pos)$/;"	f	file:
+name	readconfig.c	/^    char *name;$/;"	m	struct:longstr_s	file:
+name	readconfig.c	/^    char *name;$/;"	m	struct:rs485conf_s	file:
+name	readconfig.c	/^    char *name;$/;"	m	struct:tracefile_s	file:
+new_config	dataxfer.c	/^    struct port_info *new_config; \/* If the port is reconfigged while$/;"	m	struct:port_info	typeref:struct:port_info::port_info	file:
+next	controller.c	/^    struct controller_info *next;	\/* Used to keep these items in$/;"	m	struct:controller_info	typeref:struct:controller_info::controller_info	file:
+next	dataxfer.c	/^    struct port_info *next;		\/* Used to keep a linked list$/;"	m	struct:port_info	typeref:struct:port_info::port_info	file:
+next	readconfig.c	/^    struct longstr_s *next;$/;"	m	struct:longstr_s	typeref:struct:longstr_s::longstr_s	file:
+next	readconfig.c	/^    struct rs485conf_s *next;$/;"	m	struct:rs485conf_s	typeref:struct:rs485conf_s::rs485conf_s	file:
+next	readconfig.c	/^    struct tracefile_s *next;$/;"	m	struct:tracefile_s	typeref:struct:tracefile_s::tracefile_s	file:
+noinst_HEADERS	Makefile	/^noinst_HEADERS = controller.h dataxfer.h devio.h readconfig.h selector.h \\$/;"	m
+nr_acceptfds	controller.c	/^static unsigned int nr_acceptfds;$/;"	v	file:
+nr_acceptfds	dataxfer.c	/^    unsigned int   nr_acceptfds;$/;"	m	struct:port_info	file:
+num_controller_ports	controller.c	/^static int num_controller_ports = 0;	\/* How many control connections$/;"	v	file:
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+open_socket	utils.c	/^open_socket(struct addrinfo *ai, void (*readhndlr)(int, void *), void *data,$/;"	f
+open_trace_file	dataxfer.c	/^open_trace_file(port_info_t *port, $/;"	f	file:
+openstr	dataxfer.c	/^    char *openstr;$/;"	m	struct:port_info	file:
+option	telnet.h	/^    unsigned char option;$/;"	m	struct:telnet_cmd
+option_handler	telnet.h	/^    void (*option_handler)(void *cb_data, unsigned char *option, int len);$/;"	m	struct:telnet_cmd
+out	dataxfer.h	/^    int (*out)(struct absout *e, const char *str, ...);$/;"	m	struct:absout
+out_telnet_cmd	telnet.h	/^    struct sbuf out_telnet_cmd;$/;"	m	struct:telnet_data_s	typeref:struct:telnet_data_s::sbuf
+out_telnet_cmdbuf	telnet.h	/^    unsigned char out_telnet_cmdbuf[MAX_TELNET_CMD_XMIT_BUF];$/;"	m	struct:telnet_data_s
+outbuf	controller.c	/^    char *outbuf;			\/* The output buffer, NULL if$/;"	m	struct:controller_info	file:
+outbuf_count	controller.c	/^    int  outbuf_count;			\/* The number of bytes$/;"	m	struct:controller_info	file:
+outbuf_pos	controller.c	/^    int  outbuf_pos;			\/* The current position in the$/;"	m	struct:controller_info	file:
+outbufsize	controller.c	/^    int  outbufsize;			\/* Total size of the memory$/;"	m	struct:controller_info	file:
+output_ready	telnet.h	/^    void (*output_ready)(void *cb_data);$/;"	m	struct:telnet_data_s
+padding	dataxfer.h	/^    __u32 padding[5];            \/* Memory is cheap, new structs$/;"	m	struct:serial_rs485
+parity	devio.h	/^    int (*parity)(struct devio *io, unsigned char *val);$/;"	m	struct:devio_f
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pid_file	ser2net.c	/^static char *pid_file = NULL;$/;"	v	file:
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/ser2net$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/ser2net$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/ser2net$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/ser2net$/;"	m
+port_info	dataxfer.c	/^typedef struct port_info$/;"	s	file:
+port_info_t	dataxfer.c	/^} port_info_t;$/;"	t	typeref:struct:port_info	file:
+portconfig	dataxfer.c	/^portconfig(struct absout *eout,$/;"	f
+portname	dataxfer.c	/^    char               *portname;       \/* The name given for the port. *\/$/;"	m	struct:port_info	file:
+ports	dataxfer.c	/^port_info_t *ports = NULL; \/* Linked list of ports. *\/$/;"	v
+pos	buffer.h	/^    unsigned int pos;$/;"	m	struct:sbuf
+pos	dataxfer.c	/^    unsigned int pos;$/;"	m	struct:bufop_data	file:
+prefix	Makefile	/^prefix = \/usr\/local$/;"	m
+print_tree	selector.c	/^print_tree(sel_timer_t *top, sel_timer_t *last)$/;"	f	file:
+print_tree_item	selector.c	/^print_tree_item(sel_timer_t *pos, int indent)$/;"	f	file:
+process_input_line	controller.c	/^process_input_line(controller_info_t *cntlr)$/;"	f
+process_str	dataxfer.c	/^process_str(port_info_t *port, struct tm *time, struct timeval *tv,$/;"	f	file:
+process_str_to_buf	dataxfer.c	/^process_str_to_buf(port_info_t *port, const char *str)$/;"	f	file:
+process_str_to_str	dataxfer.c	/^process_str_to_str(port_info_t *port, const char *str, struct timeval *tv,$/;"	f	file:
+process_telnet_data	telnet.c	/^process_telnet_data(unsigned char *data, int len, telnet_data_t *td)$/;"	f
+progname	controller.c	/^static char *progname = "ser2net-control";$/;"	v	file:
+progname	dataxfer.c	/^static char *progname = "ser2net";$/;"	v	file:
+program_details	missing	/^program_details ()$/;"	f
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+prompt	controller.c	/^char *prompt = "-> ";$/;"	v
+prototypes	configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+read	devio.h	/^    int (*read)(struct devio *io, void *buf, size_t size);$/;"	m	struct:devio_f
+read_disabled	devio.h	/^    int read_disabled; \/* A printer port *\/$/;"	m	struct:devio
+read_handler	devio.h	/^    void (*read_handler)(struct devio *io);$/;"	m	struct:devio
+read_handler_enable	devio.h	/^    void (*read_handler_enable)(struct devio *io, int enabled);$/;"	m	struct:devio_f
+read_set	selector.c	/^    fd_set read_set;$/;"	m	struct:selector_s	file:
+readconfig	readconfig.c	/^readconfig(char *filename)$/;"	f
+real_rate	devcfg.c	/^    int real_rate;$/;"	m	struct:baud_rates_s	file:
+reconfig	devio.h	/^    int (*reconfig)(struct devio *io, struct absout *eout, const char *instr,$/;"	m	struct:devio_f
+redo_port_handlers	dataxfer.c	/^redo_port_handlers(port_info_t *port)$/;"	f	file:
+rem_do	telnet.h	/^    unsigned int rem_do : 1;$/;"	m	struct:telnet_cmd
+rem_will	telnet.h	/^    unsigned int rem_will : 1;$/;"	m	struct:telnet_cmd
+remote	controller.c	/^    struct sockaddr_storage remote;	\/* The socket address of who$/;"	m	struct:controller_info	typeref:struct:controller_info::sockaddr_storage	file:
+remote	dataxfer.c	/^    struct sockaddr_storage remote;	\/* The socket address of who$/;"	m	struct:port_info	typeref:struct:port_info::sockaddr_storage	file:
+remove_chars	controller.c	/^remove_chars(controller_info_t *cntlr, int pos, int count) {$/;"	f	file:
+remove_from_heap	selector.c	/^remove_from_heap(sel_timer_t **top, sel_timer_t **last, sel_timer_t *elem)$/;"	f	file:
+reread_config	ser2net.c	/^reread_config(void)$/;"	f
+reset_timer	dataxfer.c	/^reset_timer(port_info_t *port)$/;"	f	file:
+rfc2217_signature	ser2net.c	/^char *rfc2217_signature = "ser2net";$/;"	v
+right	selector.c	/^    sel_timer_t *left, *right, *up;$/;"	m	struct:sel_timer_s	file:
+rs485conf	dataxfer.c	/^    struct serial_rs485 *rs485conf;$/;"	m	struct:port_info	typeref:struct:port_info::serial_rs485	file:
+rs485conf_s	readconfig.c	/^struct rs485conf_s$/;"	s	file:
+rs485confs	readconfig.c	/^struct rs485conf_s *rs485confs = NULL;$/;"	v	typeref:struct:rs485conf_s
+sbin_PROGRAMS	Makefile	/^sbin_PROGRAMS = ser2net$(EXEEXT)$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sbuf	buffer.h	/^struct sbuf {$/;"	s
+scan_int	utils.c	/^scan_int(char *str)$/;"	f
+scan_tcp_port	utils.c	/^scan_tcp_port(char *str, struct addrinfo **rai)$/;"	f
+sdays	dataxfer.c	/^static char *sdays[] = { "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" };$/;"	v	file:
+sel	selector.c	/^    selector_t *sel;$/;"	m	struct:sel_timer_s	file:
+sel_alloc_selector	selector.c	/^sel_alloc_selector(selector_t **new_selector)$/;"	f
+sel_alloc_timer	selector.c	/^sel_alloc_timer(selector_t            *sel,$/;"	f
+sel_clear_fd_handlers	selector.c	/^sel_clear_fd_handlers(selector_t   *sel,$/;"	f
+sel_fd_handler_t	selector.h	/^typedef void (*sel_fd_handler_t)(int fd, void *data);$/;"	t
+sel_free_selector	selector.c	/^sel_free_selector(selector_t *sel)$/;"	f
+sel_free_timer	selector.c	/^sel_free_timer(sel_timer_t *timer)$/;"	f
+sel_select_loop	selector.c	/^sel_select_loop(selector_t *sel)$/;"	f
+sel_select_once	selector.c	/^sel_select_once(selector_t *sel)$/;"	f
+sel_set_fd_except_handler	selector.c	/^sel_set_fd_except_handler(selector_t *sel, int fd, int state)$/;"	f
+sel_set_fd_handlers	selector.c	/^sel_set_fd_handlers(selector_t       *sel,$/;"	f
+sel_set_fd_read_handler	selector.c	/^sel_set_fd_read_handler(selector_t *sel, int fd, int state)$/;"	f
+sel_set_fd_write_handler	selector.c	/^sel_set_fd_write_handler(selector_t *sel, int fd, int state)$/;"	f
+sel_start_timer	selector.c	/^sel_start_timer(sel_timer_t    *timer,$/;"	f
+sel_stop_timer	selector.c	/^sel_stop_timer(sel_timer_t *timer)$/;"	f
+sel_timeout_handler_t	selector.h	/^typedef void (*sel_timeout_handler_t)(selector_t  *sel,$/;"	t
+sel_timer_s	selector.c	/^struct sel_timer_s$/;"	s	file:
+sel_timer_t	selector.h	/^typedef struct sel_timer_s sel_timer_t;$/;"	t	typeref:struct:sel_timer_s
+selector_s	selector.c	/^struct selector_s$/;"	s	file:
+selector_t	selector.h	/^typedef struct selector_s selector_t;$/;"	t	typeref:struct:selector_s
+send_break	devio.h	/^    int (*send_break)(struct devio *io);$/;"	m	struct:devio_f
+send_down	selector.c	/^send_down(sel_timer_t *elem, sel_timer_t **top, sel_timer_t **last)$/;"	f	file:
+send_i	telnet.c	/^send_i(telnet_data_t *td, unsigned char type, unsigned char option)$/;"	f	file:
+send_up	selector.c	/^send_up(sel_timer_t *elem, sel_timer_t **top, sel_timer_t **last)$/;"	f	file:
+sent_do	telnet.h	/^    unsigned int sent_do : 1;$/;"	m	struct:telnet_cmd
+sent_will	telnet.h	/^    unsigned int sent_will : 1;$/;"	m	struct:telnet_cmd
+ser2net_LDADD	Makefile	/^ser2net_LDADD = $(LDADD)$/;"	m
+ser2net_OBJECTS	Makefile	/^ser2net_OBJECTS = $(am_ser2net_OBJECTS)$/;"	m
+ser2net_SOURCES	Makefile	/^ser2net_SOURCES = controller.c dataxfer.c devcfg.c readconfig.c selector.c \\$/;"	m
+ser2net_sel	ser2net.c	/^selector_t *ser2net_sel;$/;"	v
+serial_rs485	dataxfer.h	/^struct serial_rs485 {$/;"	s
+serparm_to_str	devio.h	/^    void (*serparm_to_str)(struct devio *io, char *str, int strlen);$/;"	m	struct:devio_f
+set_base_from	depcomp	/^set_base_from ()$/;"	f
+set_devcontrol	devio.h	/^    int (*set_devcontrol)(struct devio *io, const char *controls);$/;"	m	struct:devio_f
+set_dir_from	depcomp	/^set_dir_from ()$/;"	f
+set_signal_handler	selector.c	/^set_signal_handler(int sig, t_signal_handler handler)$/;"	f
+setportcontrol	dataxfer.c	/^setportcontrol(struct controller_info *cntlr, char *portspec, char *controls)$/;"	f
+setportdevcfg	dataxfer.c	/^setportdevcfg(struct controller_info *cntlr, char *portspec, char *devcfg)$/;"	f
+setportenable	dataxfer.c	/^setportenable(struct controller_info *cntlr, char *portspec, char *enable)$/;"	f
+setporttimeout	dataxfer.c	/^setporttimeout(struct controller_info *cntlr, char *portspec, char *timeout)$/;"	f
+setup	devio.h	/^    int (*setup)(struct devio *io, const char *name, const char **errstr);$/;"	m	struct:devio_f
+setup_signals	selector.c	/^setup_signals(void)$/;"	f
+setup_tcp_port	dataxfer.c	/^setup_tcp_port(port_info_t *port)$/;"	f	file:
+setup_trace	dataxfer.c	/^setup_trace(port_info_t *port)$/;"	f	file:
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+show_devcfg	devio.h	/^    void (*show_devcfg)(struct devio *io, struct absout *out);$/;"	m	struct:devio_f
+show_devcontrol	devio.h	/^    void (*show_devcontrol)(struct devio *io, struct absout *out);$/;"	m	struct:devio_f
+showport	dataxfer.c	/^showport(struct controller_info *cntlr, port_info_t *port)$/;"	f	file:
+showports	dataxfer.c	/^showports(struct controller_info *cntlr, char *portspec)$/;"	f
+showshortport	dataxfer.c	/^showshortport(struct controller_info *cntlr, port_info_t *port)$/;"	f	file:
+showshortports	dataxfer.c	/^showshortports(struct controller_info *cntlr, char *portspec)$/;"	f
+shutdown	devio.h	/^    void (*shutdown)(struct devio *io);$/;"	m	struct:devio_f
+shutdown_cleanly	ser2net.c	/^shutdown_cleanly(void)$/;"	f
+shutdown_controller	controller.c	/^shutdown_controller(controller_info_t *cntlr)$/;"	f	file:
+shutdown_port	dataxfer.c	/^shutdown_port(port_info_t *port, char *reason)$/;"	f	file:
+shutdown_ports	dataxfer.c	/^shutdown_ports(void)$/;"	f
+sighup_handler	selector.c	/^static void sighup_handler(int sig)$/;"	f	file:
+sigint_handler	selector.c	/^static void sigint_handler(int sig)$/;"	f	file:
+signaturestr	dataxfer.c	/^    char *signaturestr;$/;"	m	struct:port_info	file:
+smonths	dataxfer.c	/^static char *smonths[] = { "Jan", "Feb", "Mar", "Apr", "May", "Jun",$/;"	v	file:
+srcdir	Makefile	/^srcdir = .$/;"	m
+startswith	readconfig.c	/^startswith(char *str, const char *test, char **strtok_data)$/;"	f	file:
+startup_port	dataxfer.c	/^startup_port(struct absout *eout, port_info_t *port)$/;"	f	file:
+state_str	dataxfer.c	/^char *state_str[] = { "unconnected", "waiting input", "waiting output",$/;"	v
+stop_size	devio.h	/^    int (*stop_size)(struct devio *io, unsigned char *val);$/;"	m	struct:devio_f
+str	dataxfer.c	/^    char *str;$/;"	m	struct:bufop_data	file:
+str	readconfig.c	/^    char *str;$/;"	m	struct:longstr_s	file:
+str	readconfig.c	/^    char *str;$/;"	m	struct:tracefile_s	file:
+str_type	utils.h	/^enum str_type { BANNER, OPENSTR, CLOSESTR, SIGNATURE };$/;"	g
+subdir	Makefile	/^subdir = .$/;"	m
+suboption_iac	telnet.h	/^    int            suboption_iac;	\/* If true, we are in a$/;"	m	struct:telnet_data_s
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+syslog_eout	readconfig.c	/^static struct absout syslog_eout = {$/;"	v	typeref:struct:absout	file:
+syslog_eprint	readconfig.c	/^syslog_eprint(struct absout *e, const char *str, ...)$/;"	f	file:
+t_signal_handler	selector.h	/^typedef void (*t_signal_handler)(void);$/;"	t
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | BZIP2=$${BZIP2--9} bzip2 -c >$(distdir).tar.bz2$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | GZIP=$(GZIP_ENV) gzip -c >$(distdir).tar.gz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | XZ_OPT=$${XZ_OPT--e} xz -c >$(distdir).tar.xz$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | compress -c >$(distdir).tar.Z$/;"	m
+tardir	Makefile	/^	tardir=$(distdir) && $(am__tar) | lzip -c $${LZIP_OPT--9} >$(distdir).tar.lz$/;"	m
+target_alias	Makefile	/^target_alias = $/;"	m
+tb	dataxfer.c	/^    trace_info_t *tb;$/;"	m	struct:port_info	file:
+tcp_bytes_received	dataxfer.c	/^    unsigned int tcp_bytes_received;    \/* Number of bytes read from the$/;"	m	struct:port_info	file:
+tcp_bytes_sent	dataxfer.c	/^    unsigned int tcp_bytes_sent;        \/* Number of bytes written to the$/;"	m	struct:port_info	file:
+tcp_fd_write	dataxfer.c	/^tcp_fd_write(port_info_t *port, struct sbuf *buf)$/;"	f	file:
+tcp_monitor	dataxfer.c	/^    struct controller_info *tcp_monitor; \/* If non-null, send any input$/;"	m	struct:port_info	typeref:struct:port_info::controller_info	file:
+tcp_to_dev	dataxfer.c	/^    struct sbuf    tcp_to_dev;			\/* Buffer struct for$/;"	m	struct:port_info	typeref:struct:port_info::sbuf	file:
+tcp_to_dev_state	dataxfer.c	/^    int            tcp_to_dev_state;		\/* State of transferring$/;"	m	struct:port_info	file:
+tcp_to_devbuf	dataxfer.c	/^    unsigned char  tcp_to_devbuf[PORT_BUFSIZE]; \/* Buffer used for$/;"	m	struct:port_info	file:
+tcpfd	controller.c	/^    int            tcpfd;		\/* When connected, the file$/;"	m	struct:controller_info	file:
+tcpfd	dataxfer.c	/^    int            tcpfd;		\/* When connected, the file$/;"	m	struct:port_info	file:
+telnet_cmd	telnet.h	/^    unsigned char  telnet_cmd[MAX_TELNET_CMD_SIZE+1];$/;"	m	struct:telnet_data_s
+telnet_cmd	telnet.h	/^struct telnet_cmd$/;"	s
+telnet_cmd_handler	controller.c	/^telnet_cmd_handler(void *cb_data, unsigned char cmd)$/;"	f
+telnet_cmd_handler	dataxfer.c	/^telnet_cmd_handler(void *cb_data, unsigned char cmd)$/;"	f	file:
+telnet_cmd_pos	telnet.h	/^    int            telnet_cmd_pos;      \/* Current position in the$/;"	m	struct:telnet_data_s
+telnet_cmd_send	telnet.c	/^telnet_cmd_send(telnet_data_t *td, unsigned char *cmd, int len)$/;"	f
+telnet_cmds	controller.c	/^static struct telnet_cmd telnet_cmds[] = $/;"	v	typeref:struct:telnet_cmd	file:
+telnet_cmds	dataxfer.c	/^static struct telnet_cmd telnet_cmds[] = $/;"	v	typeref:struct:telnet_cmd	file:
+telnet_data_s	telnet.h	/^struct telnet_data_s$/;"	s
+telnet_data_t	telnet.h	/^typedef struct telnet_data_s telnet_data_t;$/;"	t	typeref:struct:telnet_data_s
+telnet_init	telnet.c	/^telnet_init(telnet_data_t *td,$/;"	f
+telnet_init_seq	controller.c	/^static unsigned char telnet_init_seq[] = {$/;"	v	file:
+telnet_init_seq	dataxfer.c	/^static unsigned char telnet_init_seq[] = {$/;"	v	file:
+telnet_output_ready	controller.c	/^telnet_output_ready(void *cb_data)$/;"	f	file:
+telnet_output_ready	dataxfer.c	/^telnet_output_ready(void *cb_data)$/;"	f	file:
+telnet_send_option	telnet.c	/^telnet_send_option(telnet_data_t *td, unsigned char *option, int len)$/;"	f
+termctl	devcfg.c	/^    struct termios termctl;$/;"	m	struct:devcfg_data	typeref:struct:devcfg_data::termios	file:
+timeout	dataxfer.c	/^    int            timeout;		\/* The number of seconds to$/;"	m	struct:port_info	file:
+timeout	selector.c	/^    struct timeval timeout;$/;"	m	struct:sel_timer_s	typeref:struct:sel_timer_s::timeval	file:
+timeout_left	dataxfer.c	/^    int            timeout_left;	\/* The amount of time left (in$/;"	m	struct:port_info	file:
+timer	dataxfer.c	/^    sel_timer_t *timer;			\/* Used to timeout when the no$/;"	m	struct:port_info	file:
+timer_last	selector.c	/^    sel_timer_t *timer_top, *timer_last;$/;"	m	struct:selector_s	file:
+timer_top	selector.c	/^    sel_timer_t *timer_top, *timer_last;$/;"	m	struct:selector_s	file:
+timestamp	dataxfer.c	/^    int  timestamp;   \/* preceed each line with a timestamp *\/$/;"	m	struct:trace_info_s	file:
+timestamp	dataxfer.c	/^timestamp(trace_info_t *t, char *buf, int size)$/;"	f	file:
+tn_data	controller.c	/^    telnet_data_t tn_data;$/;"	m	struct:controller_info	file:
+tn_data	dataxfer.c	/^    telnet_data_t tn_data;$/;"	m	struct:port_info	file:
+top_build_prefix	Makefile	/^top_build_prefix = $/;"	m
+top_builddir	Makefile	/^top_builddir = .$/;"	m
+top_distdir	Makefile	/^top_distdir = $(distdir)$/;"	m
+top_srcdir	Makefile	/^top_srcdir = .$/;"	m
+tr	dataxfer.c	/^    trace_info_t *tr;$/;"	m	struct:port_info	file:
+trace_both	dataxfer.c	/^    trace_info_t trace_both;$/;"	m	struct:port_info	file:
+trace_info_s	dataxfer.c	/^typedef struct trace_info_s$/;"	s	file:
+trace_info_t	dataxfer.c	/^} trace_info_t;$/;"	t	typeref:struct:trace_info_s	file:
+trace_read	dataxfer.c	/^    trace_info_t trace_read;$/;"	m	struct:port_info	file:
+trace_write	dataxfer.c	/^    trace_info_t trace_write;$/;"	m	struct:port_info	file:
+trace_write	dataxfer.c	/^trace_write(port_info_t *port, trace_info_t *t, unsigned char *buf,$/;"	f
+trace_write_end	dataxfer.c	/^trace_write_end(char *out, int size, unsigned char *start, int col)$/;"	f	file:
+tracefile_s	readconfig.c	/^struct tracefile_s$/;"	s	file:
+tracefiles	readconfig.c	/^struct tracefile_s *tracefiles = NULL;$/;"	v	typeref:struct:tracefile_s
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+tw	dataxfer.c	/^    trace_info_t *tw;$/;"	m	struct:port_info	file:
+type	readconfig.c	/^    enum str_type type;$/;"	m	struct:longstr_s	typeref:enum:longstr_s::str_type	file:
+up	selector.c	/^    sel_timer_t *left, *right, *up;$/;"	m	struct:sel_timer_s	file:
+user_data	devio.h	/^    void *user_data;$/;"	m	struct:devio
+user_data	selector.c	/^    void *user_data;$/;"	m	struct:sel_timer_s	file:
+user_sighup_handler	selector.c	/^static t_signal_handler user_sighup_handler = NULL;$/;"	v	file:
+user_sigint_handler	selector.c	/^static t_signal_handler user_sigint_handler = NULL;$/;"	v	file:
+uucp_fname_lock	devcfg.c	/^uucp_fname_lock(char *buf, char *devname)$/;"	f	file:
+uucp_fname_lock_size	devcfg.c	/^uucp_fname_lock_size(char *devname)$/;"	f	file:
+uucp_lck_dir	devcfg.c	/^static char *uucp_lck_dir = "\/var\/lock";$/;"	v	file:
+uucp_locking_enabled	ser2net.c	/^int uucp_locking_enabled = 1;$/;"	v
+uucp_mk_lock	devcfg.c	/^uucp_mk_lock(char *devname)$/;"	f	file:
+uucp_rm_lock	devcfg.c	/^uucp_rm_lock(char *devname)$/;"	f	file:
+val	devcfg.c	/^    int val;$/;"	m	struct:baud_rates_s	file:
+will_handler	telnet.h	/^    int (*will_handler)(void *cb_data);$/;"	m	struct:telnet_cmd
+working_longstr	readconfig.c	/^static struct longstr_s *working_longstr;$/;"	v	typeref:struct:longstr_s	file:
+working_longstr_continued	readconfig.c	/^static int working_longstr_continued = 0;$/;"	v	file:
+working_longstr_len	readconfig.c	/^static int working_longstr_len = 0;$/;"	v	file:
+write	devio.h	/^    int (*write)(struct devio *io, void *buf, size_t size);$/;"	m	struct:devio_f
+write_full	utils.c	/^write_full(int fd, char *data, size_t count)$/;"	f
+write_handler	devio.h	/^    void (*write_handler)(struct devio *io);$/;"	m	struct:devio
+write_handler_enable	devio.h	/^    void (*write_handler_enable)(struct devio *io, int enabled);$/;"	m	struct:devio_f
+write_ignore_fail	utils.c	/^write_ignore_fail(int fd, const char *data, size_t count)$/;"	f
+write_set	selector.c	/^    fd_set write_set;$/;"	m	struct:selector_s	file:
